@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+}
+nav {
+background-color: lavender;
+height: 70px;
+line-height: 70px;
+padding-left: 20px;
+}
+.nav_click{
+  text-decoration:none;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.nav_click:hover{
+  letter-spacing: 0.15em;
+  transition: .3s
+}
+.touroku,
+.kousin,
+.itiran {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #F0FFF0;
+  height: 100vh;
+  color: #006400;
+}
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+legend {
+  border-top: 1px solid #006400;
+  border-bottom: 1px solid #006400;
+  font-weight: bold;
+  color: #006400;
+  padding:10px 40px;
+  font-size: 20px;
+}
+input {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+textarea {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.click{
+  border: none;
+  cursor: pointer;
+  color: #006400;
+  padding: 10px;
+  transition: all 0.3s;
+  font-weight: bold;
+}
+.click:hover{
+  background: #006400;
+  color: white;
+}
+.itiran {
+  padding-left: 30px;
+}
+tr {
+  line-height: 30px;
+}
+td a {
+  line-height: 30px;
+  text-decoration: none;
+}
+.click_kousin {
+  margin-left: 30px;
+  margin-right: 10px;
+}
+td a:hover {
+  border-bottom: 1px solid #006400;
+}
